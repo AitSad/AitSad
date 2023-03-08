@@ -2,8 +2,8 @@
 Graph
 ==============
 
-.. currentmodule:: aitsad.graph
+.. currentmodule:: satclave.graph
 
 .. Don't include inherited members to keep the doc short
-.. autoclass:: aitsad.Graph
+.. autoclass:: satclave.Graph
     :members:

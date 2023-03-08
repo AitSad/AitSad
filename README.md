@@ -6,9 +6,10 @@ A small library implementing graph functions, and other in future
 pip install aitsad
 ```
 
-### Get started
-How to multiply one number by another with this lib:
+## Get started
+Here are the implementations of AitSad.
 
+### Graph
 ```Python
 from aitsad import Graph
 # Create a new graph

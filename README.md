@@ -3,15 +3,15 @@ A small library implementing graph functions, and other in future
 
 ### Installation
 ```
-pip install aitsad
+pip install satclave
 ```
 
 ## Get started
-Here are the implementations of AitSad.
+Here are the implementations of SatClave.
 
 ### Graph
 ```Python
-from aitsad import Graph
+from satclave import Graph
 # Create a new graph
 graph = Graph()
 

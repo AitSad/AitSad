@@ -148,11 +148,6 @@ class Vector:
     Returns:
         list: A list of numbers representing the normalized vector.
 
-    Examples:
-        >>> normalize([3, 4])
-        [0.6, 0.8]
-        >>> normalize([1, 2, 3])
-        [0.2672612419124244, 0.5345224838248488, 0.8017837257372732]
     """
     euclidean_length = sum([x**2 for x in vector]) ** 0.5
     return [x / euclidean_length for x in vector]

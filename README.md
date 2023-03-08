@@ -55,7 +55,7 @@ print("Does the graph contain a cycle?", graph.is_cyclic())
 
 ### Vector
 ```python
-from vector import Vector
+from satclave import Vector
 
 # create two vectors
 v1 = Vector([1, 2, 3])

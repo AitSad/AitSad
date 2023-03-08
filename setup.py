@@ -15,12 +15,12 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 
 # This call to setup() does all the work
 setup(
-    name="aitsad",
+    name="satclave",
     version="0.1.1",
-    description="A graph necessity library",
+    description="A library with computational and mathematical functions!",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://aitsad.readthedocs.io/",
+    url="https://satclave.readthedocs.io/",
     author="Aitzaz Imtiaz",
     author_email="aitzazimtiaz855@gmail.com",
     license="MIT",
@@ -35,7 +35,7 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent"
     ],
-    packages=["aitsad"],
+    packages=["satclave"],
     include_package_data=True,
     install_requires=[""]
 )

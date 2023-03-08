@@ -11,7 +11,8 @@ Welcome to SatClave documentation!
    :caption: Python API:
 
    source/api/graph
-
+   source/api/vector
+   
 Indices and tables
 ==================
 

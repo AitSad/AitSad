@@ -138,19 +138,21 @@ class Vector:
             float: The magnitude of the vector.
         return math.sqrt(sum([x**2 for x in self.coordinates]))
         """
-    def normalize(self):
-        """
-        Returns a new vector with the same direction as this vector, but with a magnitude of 1.
+    def normalize(vector):
+    """
+    Normalizes a given vector by dividing each element by the Euclidean length of the vector.
 
-        The normalization of a vector is the process of dividing each component of the vector by its magnitude, so that the resulting vector has a magnitude of 1. This is useful for finding the unit vector, or the direction of a vector without regard to its magnitude.
+    Args:
+        vector (list): A list of numbers representing the vector to be normalized.
 
-        Returns:
-          A new Vector object with the same direction as this vector, but with a magnitude of 1.
+    Returns:
+        list: A list of numbers representing the normalized vector.
 
-        Example:
-          >>> v = Vector([3, 4])
-          >>> v.normalize()
-          Vector: [0.6, 0.8]
-        """
-        mag = self.magnitude()
-        return Vector([x/mag for x in self.coordinates])
+    Examples:
+        >>> normalize([3, 4])
+        [0.6, 0.8]
+        >>> normalize([1, 2, 3])
+        [0.2672612419124244, 0.5345224838248488, 0.8017837257372732]
+    """
+    euclidean_length = sum([x**2 for x in vector]) ** 0.5
+    return [x / euclidean_length for x in vector]

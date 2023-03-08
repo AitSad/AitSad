@@ -1,4 +1,4 @@
-# AitSad
+# SatClave
 A small library implementing graph functions, and other in future
 
 ### Installation
@@ -51,4 +51,31 @@ print("Edges after removal:", graph.edges)
 
 # Test cycle detection
 print("Does the graph contain a cycle?", graph.is_cyclic())
+```
+
+### Vector
+```python
+from vector import Vector
+
+# create two vectors
+v1 = Vector([1, 2, 3])
+v2 = Vector([4, 5, 6])
+
+# test vector addition and subtraction
+v3 = v1 + v2
+v4 = v2 - v1
+print(f"v1 + v2 = {v3}")  
+print(f"v2 - v1 = {v4}") 
+
+# test dot product and cross product
+dot_product = v1.dot(v2)
+cross_product = v1.cross(v2)
+print(f"v1 . v2 = {dot_product}")  
+print(f"v1 x v2 = {cross_product}") 
+
+# test vector magnitude and normalization
+magnitude_v1 = v1.magnitude()
+normalized_v1 = v1.normalize()
+print(f"magnitude of v1 = {magnitude_v1}")  
+print(f"normalized v1 = {normalized_v1}")  
 ```

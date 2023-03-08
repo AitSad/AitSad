@@ -16,7 +16,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 # This call to setup() does all the work
 setup(
     name="satclave",
-    version="0.1.1",
+    version="0.1.2",
     description="A library with computational and mathematical functions!",
     long_description=long_description,
     long_description_content_type="text/markdown",

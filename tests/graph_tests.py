@@ -1,5 +1,5 @@
 import unittest
-from aitsad import Graph
+from satclave import Graph
 
 class TestGraph(unittest.TestCase):
 

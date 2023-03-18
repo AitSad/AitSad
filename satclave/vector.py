@@ -139,15 +139,14 @@ class Vector:
         return math.sqrt(sum([x**2 for x in self.coordinates]))
         """
     def normalize(vector):
-    """
-    Normalizes a given vector by dividing each element by the Euclidean length of the vector.
+        """
+        Normalizes a given vector by dividing each element by the Euclidean length of the vector.
 
-    Args:
-        vector (list): A list of numbers representing the vector to be normalized.
+        Args:
+            vector (list): A list of numbers representing the vector to be normalized.
 
-    Returns:
-        list: A list of numbers representing the normalized vector.
-
-    """
+        Returns:
+            list: A list of numbers representing the normalized vector.
+        """
     euclidean_length = sum([x**2 for x in vector]) ** 0.5
     return [x / euclidean_length for x in vector]
